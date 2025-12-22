@@ -30,11 +30,34 @@
   padding: 48px;
   overflow-y: auto;
 
+  &__btn-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+
+    svg {
+      fill: var(--color-primary-dark);
+      transition: fill 0.3s;
+    }
+
+    &:hover svg {
+      fill: var(--color-brand-normal);
+    }
+  }
+
   @media screen and (min-width: $bp-tablet) {
     padding: 128px;
 
     &__btn-close {
       position: absolute;
+      background: none;
+      border: none;
+      color: var(--color-primary-dark);
       top: 40px;
       right: 40px;
     }

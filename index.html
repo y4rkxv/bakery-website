@@ -30,9 +30,9 @@
               <li>
                 <a class="link" href="#traditions-section">Наші традиції</a>
               </li>
-              <li><a class="link" href="#chef">Шеф-кухарі</a></li>
+              <li><a class="link" href="#chefs-section">Шеф-кухарі</a></li>
               <li><a class="link" href="#formats-section">Формати</a></li>
-              <li><a class="link" href="#contac-section">Контакти</a></li>
+              <li><a class="link" href="#contact-section">Контакти</a></li>
             </ul>
           </nav>
           <button class="header__button button modal-btn-open" type="button">
@@ -45,8 +45,35 @@
           </button>
           <div class="mobile-menu">
             <button class="mobile-menu__btn-close menu-btn-close" type="button">
-              Close
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-cross"></use>
+              </svg>
             </button>
+
+            <a class="mobile-menu__logo" href="/">
+              <img src="./images/logo.svg" alt="Логотип пекарні" />
+            </a>
+
+            <ul class="mobile-menu__list">
+              <li>
+                <a class="mobile-menu__link" href="#traditions-section"
+                  >Наші традиції</a
+                >
+              </li>
+              <li>
+                <a class="mobile-menu__link" href="#chefs-section"
+                  >Шеф-кухарі</a
+                >
+              </li>
+              <li>
+                <a class="mobile-menu__link" href="#formats-section">Формати</a>
+              </li>
+              <li>
+                <a class="mobile-menu__link" href="#contact-section"
+                  >Контакти</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -451,7 +478,9 @@
     <div class="backdrop is-hidden">
       <div class="modal">
         <button class="modal__btn-close modal-btn-close" type="button">
-          Close
+          <svg class="footer__address-icon" width="32" height="32">
+            <use href="./images/icons.svg#icon-cross"></use>
+          </svg>
         </button>
         <h2>Замовити дзвінок</h2>
         <p>Залишіть заявку та наш спеціаліст з вами зв'яжеться</p>
